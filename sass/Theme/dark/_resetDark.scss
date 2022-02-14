@@ -1,0 +1,11 @@
+
+body{
+        // transition: 0.5s;
+
+    &.darkMode{
+        transition: 1s;
+        color: $color-dark-3;
+        background-color: $color-dark-1;
+    }
+
+}

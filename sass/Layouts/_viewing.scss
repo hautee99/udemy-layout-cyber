@@ -1,0 +1,21 @@
+.viewing{
+
+    padding: 22px 0;
+    .viewing__content{
+        width: 90%;
+        margin: auto;
+        h2{
+            font-size: $fs-3 + 2;
+        }
+    }
+    @include responsive("screen-1"){
+        .card{
+            .card-body{
+                .card-title{
+                    @include styleText($color-black-0, $fs-1, $fw-1);
+                    margin-bottom:$mg-0 + 5;
+                }
+            }
+        }
+    }
+}
